@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cb848cf01c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- TOP BANNER -->
+    <div class="top-banner">
+        <div class="container">
+            <div class="small-bold-text  banner-text"><i class="fa-solid fa-envelope"></i> info@sandtank.com <i class="fa-solid fa-phone"></i> +918480004610</div>
+
+        
+            <div class="small-bold-text  banner-textright"><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-linkedin-in"></i> </i></div>
+        
+        </div>
+    </div>
+    
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="container main-nav flex">
+            <a href="#" class="company-logo">
+                <img src="company logo.png" alt="company logo">
+            </a>
+            <div class="nav-links active" id="nav-links">
+                <ul class="flex">
+                    <li><a href="#" class="hover-link">Home</a></li>
+                    <li><a href="#" class="hover-link">About </a></li>
+                    <li><a href="#" class="hover-link">Start Up</a></li>
+                    <li><a href="#" class="hover-link">Why us?</a></li>
+                    <li><a href="#" class="hover-link">Contact</a></li>
+                    <li><a href="#" class="hover-link  secondary-button">Apply Now</a></li>
+                    
+                </ul>
+
+            </div>
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i></a>
+
+        </div>
+    </nav>
+
+<!-- home  -->
+    <header>
+        <div class="container header-section flex">
+            <div class="header-left">
+                <h1 data-text="Ready startup level">Ready to take your startup to the next level?</h1>
+                <p>  Apply for incubation with Sand Tank and get
+                    the guidance you need to succeed.
+                </p>
+                <a href="#" class="primary-button get-started-btn">Apply for Incubation</a>
+                <a href="#" class="primary-button get-started-btn">Contact Us</a>
+            </div>
+            <div class="header-right">
+                <img src="pal img.jpg" alt=" image">
+            </div>
+        </div>
+    </header>
+    <script>
+        const toggleButton= document.getElementById('nav-toggle');
+        const navLinks=document.getElementById('nav-links');
+
+
+        toggleButton.addEventListener('click', () =>{
+            navLinks.classList.toggle('active');
+
+        })
+    </script>
+</body>
+</html>
